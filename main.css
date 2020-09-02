@@ -5,7 +5,7 @@
 }
 
 :root {
-  --max-readable-width: 32.38rem;
+  --max-readable-width: 37.5rem;
 
   --font-sans-serif: Helvetica, Arial, sans-serif;
 
@@ -15,15 +15,16 @@
   --colour-fg-base: rgba(51,51,51,1);
   --colour-fg-light: rgba(51,51,51,0.8);
 
-  --colour-link: hsl(240,100%,50%);
-  --colour-link-hover: hsl(240,100%,50%);
-  --colour-link-focus: hsl(240,100%,40%);
-  --colour-link-visited: hsl(240,100%,70%);
-  --colour-link-active: hsl(240,100%,30%);
+  --colour-link: hsl(359,68%,50%);
+  --colour-link-hover: hsl(359,68%,50%);
+  --colour-link-focus: hsl(359,68%,40%);
+  --colour-link-visited: hsl(359,68%,70%);
+  --colour-link-active: hsl(359,68%,30%);
   --gutter: 1rem;
+  --margin-width: 1px;
   
   font-family: Times, "Times New Roman", serif;
-  font-size: 21px;
+  font-size: 16px;
   background-color: var(--colour-bg-base);
   color: var(--colour-fg-base);
   text-rendering: optimizeLegibility;
@@ -39,14 +40,16 @@
     --colour-bg-dark: rgba(0,0,0,1);
     --colour-fg-base: rgba(238,238,238,1);
     --colour-fg-light: rgba(238,238,238,0.8);
-    --colour-link: hsl(240,100%,80%);
-    --colour-link-hover: hsl(240,100%,80%);
-    --colour-link-focus: hsl(240,100%,90%);
-    --colour-link-visited: hsl(240,100%,70%);
-    --colour-link-active: hsl(240,100%,95%);
+    --colour-link: hsl(359,68%,80%);
+    --colour-link-hover: hsl(359,68%,80%);
+    --colour-link-focus: hsl(359,68%,90%);
+    --colour-link-visited: hsl(359,68%,70%);
+    --colour-link-active: hsl(359,68%,95%);
   }
 } */
-
+article {
+  margin-bottom: 3rem;
+}
 a {
   text-decoration: none;
 }
@@ -106,6 +109,14 @@ h6 {
 body {
   margin-left: var(--gutter);
   margin-right: var(--gutter);
+}
+
+time {
+  font-family: var(--font-sans-serif);
+  color: var(--colour-fg-light);
+  display: block;
+  font-size: 0.6rem;
+  text-transform: uppercase;
 }
 
 p {
@@ -197,4 +208,13 @@ figcaption {
 img {
   display: block;
   max-width: 100%;
+}
+
+.logo {
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  fill: var(--colour-link);
 }
