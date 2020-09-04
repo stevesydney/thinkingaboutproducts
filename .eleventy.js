@@ -3,6 +3,7 @@ module.exports = eleventyConfig => {
     "md",
     "html",
     "png",
-    "css"
+    "css",
+    "js"
   ]);
 };

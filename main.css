@@ -22,7 +22,6 @@
   --colour-link-active: hsl(359,68%,30%);
   --gutter: 1rem;
   --margin-width: 1px;
-  
   font-family: Times, "Times New Roman", serif;
   font-size: 16px;
   background-color: var(--colour-bg-base);
@@ -33,7 +32,7 @@
   line-height: 1.3;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --colour-bg-base: rgba(51,51,51,1);
     --colour-bg-medium: rgba(34,34,34,1);
@@ -46,7 +45,8 @@
     --colour-link-visited: hsl(359,68%,70%);
     --colour-link-active: hsl(359,68%,95%);
   }
-} */
+}
+
 article {
   margin-bottom: 3rem;
 }
@@ -211,7 +211,7 @@ img {
 }
 
 .logo {
-  width: 180px;
+  width: 100px;
   max-width: 100%;
   height: auto;
   margin-top: 1rem;
