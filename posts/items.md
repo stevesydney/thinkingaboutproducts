@@ -3,6 +3,8 @@ title: All the article elements
 ---
 A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a discourse in <a href="#!">writing dealing with a particular</a> point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.
 
+## Hello world
+### Greetings 
 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis.
 
 > A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text.
@@ -79,16 +81,16 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 
 <figure>
-  <img src="http://placedog.net/820/420" alt="Image alt text">
+  <img src="/images/nes.jpg" alt="Image alt text">
   <figcaption>Here is a caption for this image.</figcaption>
 </figure>
 
 Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod.
 
-<figure>
+<!-- <figure>
   <img src="http://placedog.net/320/320" alt="Image alt text">
   <figcaption>Here is a caption for this image.</figcaption>
-</figure>
+</figure> -->
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum.
 
