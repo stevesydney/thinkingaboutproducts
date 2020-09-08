@@ -1,0 +1,12 @@
+---
+layout: layouts/base.liquid
+---
+<article>
+  <header>
+    <h1>{{ title }}</h1>
+    <time datetime="{{ page.date | htmlDateString }}" itemprop="dateCreated pubdate datePublished">
+      {{ page.date | date: "%B %e, %Y" }}
+    </time>
+  </header>
+  {{ content }}
+</article>

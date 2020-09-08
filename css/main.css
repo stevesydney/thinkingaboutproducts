@@ -218,3 +218,8 @@ img {
   margin-bottom: 1rem;
   fill: var(--colour-link);
 }
+
+.copyright {
+  font-size: 0.7rem;
+  opacity: 0.5;
+}

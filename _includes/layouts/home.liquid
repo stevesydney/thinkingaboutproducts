@@ -1,0 +1,14 @@
+---
+layout: layouts/base.liquid
+---
+{% assign postslist = collections.posts %}
+{% for post in postslist %}
+  <article>
+    <header>
+      <h1><a href="{{ post.url | url }}">{{ post.data.title }}</a></h1>
+      <time datetime="{{ post.date | htmlDateString }}" itemprop="dateCreated pubdate datePublished">
+        {{ post.date | date: "%B %e, %Y" }}
+      </time>
+    </header>
+  </article>
+{% endfor %}

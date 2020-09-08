@@ -1,0 +1,6 @@
+{
+  "layout": "layouts/post.liquid",
+  "tags": [
+    "posts"
+  ]
+}
